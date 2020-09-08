@@ -1,6 +1,6 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import MUIDataTable from "mui-datatables";
+import Button from "@material-ui/core/Button";
 
 const columns = ["ID", "name", "price", "coupon", "stock"];
 
@@ -43,6 +43,10 @@ export default function Table() {
         options={options}
         responsive={"standard"}
       />
+      <div className="btn-group">
+        <Button variant="outlined">Delete</Button>
+        <Button variant="outlined">Reset</Button>
+      </div>
     </React.Fragment>
   );
 }

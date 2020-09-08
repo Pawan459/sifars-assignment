@@ -1,0 +1,16 @@
+.App .btn-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.App .btn-group button:first-child {
+  margin-right: 20px;
+}
+
+.App .btn-group button {
+  border: 1px solid black;
+  border-radius: 50px;
+  width: 150px;
+}
